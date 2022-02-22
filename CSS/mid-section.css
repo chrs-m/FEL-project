@@ -1,0 +1,26 @@
+/* MID SECTION */
+
+.mid-section {
+  margin-top: 15rem;
+  display: flex;
+}
+
+.text-container {
+  margin: 0 auto;
+  background-color: var(--dark);
+  width: 350px;
+  position: relative;
+}
+
+.text-container p {
+  color: var(--light);
+  padding: 2rem 2rem;
+}
+
+.container-img {
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  top: -140px;
+  right: -50px;
+}
