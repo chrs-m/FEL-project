@@ -1,0 +1,42 @@
+.swiper {
+  margin-top: 2rem;
+  width: 100vw;
+  height: 300px;
+}
+
+.swiper .swiper-slide {
+  width: 150px;
+  position: relative;
+}
+
+.swiper .swiper-text {
+  position: absolute;
+  bottom: 24px;
+  left: 12px;
+  font-size: 1.3rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+}
+
+/* BACKGROUNDS */
+.swiper .lab1 {
+  background-color: var(--blue);
+}
+.swiper .lab2 {
+  background-color: var(--pink);
+}
+.swiper .lab3 {
+  background-color: var(--teal);
+}
+.swiper .lab4 {
+  background-color: var(--orange);
+}
+.swiper .lab5 {
+  background-color: var(--purple);
+}
+.swiper .lab6 {
+  background-color: var(--cyan);
+}
