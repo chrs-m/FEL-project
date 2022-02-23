@@ -5,31 +5,41 @@
   margin-top: 2rem;
 }
 
-.tv-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background-color: rgb(204, 204, 204);
-  width: 350px;
-  height: 250px;
-  border-radius: 15px;
-  box-shadow: -5px 7px black;
+.tv-container img {
+  position: absolute;
 }
+
 .tv-grain {
   display: flex;
-  width: 320px;
   height: 220px;
   border-radius: 15px;
   align-items: center;
-}
-
-#tv-grain > * {
-  position: relative;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15%;
+  width: 143%;
+  margin-top: 65%;
+  border: solid 5px;
+  border-color: black;
 }
 
 .logo {
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   top: 25%;
   margin-left: 10px;
+  margin-top: 30%;
+  z-index: 2;
+}
+.menu-text {
+  z-index: 3;
+  margin-top: 50px;
+  position: relative;
+  width: 200px;
+  margin-left: 100%;
+}
+
+.menu-text li {
+  list-style: none;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
