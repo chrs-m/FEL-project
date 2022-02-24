@@ -1,0 +1,17 @@
+.info-section {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.headline {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+
+.body-text {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0rem 1.5rem 1.5rem;
+}

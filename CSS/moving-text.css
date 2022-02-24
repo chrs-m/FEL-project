@@ -1,0 +1,25 @@
+.moving-text-container {
+  background-color: var(--blue);
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.5rem;
+  overflow-x: hidden;
+}
+
+.moving-text {
+  overflow-x: hidden;
+  font-size: 1.4rem;
+  inline-size: max-content;
+}
+
+.right {
+  margin-left: -180px;
+}
+.left {
+  margin-left: 260px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
