@@ -1,24 +1,25 @@
-/* HERO SECTION */
-.hero-section {
+.tv-container {
+  width: 100vw;
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
 }
 
 .tv-container img {
   position: absolute;
+  width: 70%;
+  margin-top: 10%;
 }
 
 .tv-grain {
   display: flex;
-  height: 220px;
+  height: 25%;
   border-radius: 15px;
   align-items: center;
   position: absolute;
   z-index: 1;
-  margin-left: 15%;
-  width: 143%;
-  margin-top: 65%;
+  margin-left: 3%;
+  width: 60%;
+  margin-top: 38%;
   border: solid 5px;
   border-color: black;
 }
@@ -27,19 +28,25 @@
   font-size: 2.4rem;
   top: 25%;
   margin-left: 10px;
-  margin-top: 30%;
+  margin-top: 20%;
   z-index: 2;
+  margin-bottom: 10px;
 }
+
 .menu-text {
   z-index: 3;
-  margin-top: 50px;
+  margin-left: 23%;
   position: relative;
-  width: 200px;
-  margin-left: 100%;
+  margin-top: 6%;
 }
 
 .menu-text li {
   list-style: none;
   font-size: 1.5rem;
   margin-top: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
