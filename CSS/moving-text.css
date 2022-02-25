@@ -11,6 +11,12 @@
   overflow-x: hidden;
   font-size: 1.4rem;
   inline-size: max-content;
+  color: rgba(128, 128, 128, 0.6);
+}
+
+.moving-text span {
+  color: black;
+  font-size: 1.5rem;
 }
 
 .right {
