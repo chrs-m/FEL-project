@@ -7,13 +7,5 @@
 
 body {
   background-color: var(--yellow);
-}
-
-/* ROLLING TEXT SECTION */
-.rolling-text-section {
-  margin-top: 2rem;
-}
-
-.rolling-text {
-  font-size: 3rem;
+  overflow-x: hidden;
 }

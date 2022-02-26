@@ -1,26 +1,58 @@
 /* MID SECTION */
 
 .mid-section {
-  margin-top: 15rem;
-  display: flex;
-}
-
-.text-container {
-  margin: 0 auto;
-  background-color: var(--black);
-  width: 350px;
   position: relative;
+  width: 100vw;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
-.text-container p {
-  color: var(--white);
-  padding: 2rem 2rem;
-}
-
-.container-img {
+.top-container-text {
   position: absolute;
-  width: 150px;
-  height: 180px;
-  top: -140px;
-  right: -50px;
+  right: 25rem;
+  top: 4rem;
+  font-family: ppneuemontreal;
+  font-size: 2.5rem;
+  background: white;
+  border: 6px solid black;
+  border-radius: 16px;
+  padding: 2rem 2rem;
+  width: 600px;
+  height: auto;
+}
+
+.top-container-img {
+  position: absolute;
+  width: 450px;
+  height: 680px;
+  top: 2rem;
+  right: 3rem;
+  filter: grayscale(1);
+  border: 6px solid black;
+  border-radius: 16px;
+}
+
+.bottom-container-text {
+  position: absolute;
+  left: 25rem;
+  top: 50rem;
+  font-family: ppneuemontreal;
+  font-size: 2.5rem;
+  background: white;
+  border: 6px solid black;
+  border-radius: 16px;
+  padding: 2rem 2rem;
+  width: 570px;
+  height: auto;
+}
+
+.bottom-container-img {
+  position: relative;
+  width: 450px;
+  height: 680px;
+  top: 35rem;
+  left: 3rem;
+  filter: grayscale(1);
+  border: 6px solid black;
+  border-radius: 16px;
 }
