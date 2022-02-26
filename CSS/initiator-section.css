@@ -1,0 +1,41 @@
+.initiator-section {
+  margin-top: 600px;
+  background-color: var(--black);
+  color: var(--white);
+  height: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin: 0rem 3rem;
+}
+
+.initiator-headline {
+  font-family: ppneuemontreal;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.initiator-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.initiator {
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+.initiator-img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.initiator-img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
