@@ -1,19 +1,20 @@
 .swiper {
   margin-top: 2rem;
-  width: 100vw;
-  height: 300px;
+  /* width: 100vw; */
+  height: 500px;
 }
 
 .swiper .swiper-slide {
   width: 150px;
   position: relative;
+  border: 2px solid var(--black);
 }
 
 .swiper .swiper-text {
   position: absolute;
   bottom: 24px;
-  left: 12px;
-  font-size: 1.3rem;
+  right: 1rem;
+  font-size: 4rem;
 }
 
 .swiper-button-prev,
@@ -23,20 +24,20 @@
 
 /* BACKGROUNDS */
 .swiper .lab1 {
-  background-color: var(--blue);
+  background-color: var(--white);
 }
 .swiper .lab2 {
-  background-color: var(--pink);
+  background-color: var(--yellow);
 }
 .swiper .lab3 {
-  background-color: var(--teal);
+  background-color: var(--blue);
 }
 .swiper .lab4 {
-  background-color: var(--orange);
+  background-color: var(--pink);
 }
 .swiper .lab5 {
   background-color: var(--purple);
 }
 .swiper .lab6 {
-  background-color: var(--cyan);
+  background-color: var(--green);
 }

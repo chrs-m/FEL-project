@@ -1,6 +1,6 @@
 .moving-text-container {
   background-color: var(--blue);
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   padding: 1.5rem;
@@ -9,21 +9,24 @@
 
 .moving-text {
   overflow-x: hidden;
-  font-size: 1.4rem;
+  font-family: ppneuemontreal;
+  font-size: 6rem;
   inline-size: max-content;
-  color: rgba(128, 128, 128, 0.6);
+  color: var(--blue-faded);
 }
 
 .moving-text span {
+  font-family: ppneuemontreal;
   color: black;
-  font-size: 1.5rem;
+  padding: 0rem 2rem;
+  font-size: 6rem;
 }
 
 .right {
-  margin-left: -180px;
+  margin-left: -200px;
 }
 .left {
-  margin-left: 260px;
+  margin-left: 200px;
 }
 
 .bold-text {

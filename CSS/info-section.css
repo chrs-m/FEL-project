@@ -1,17 +1,23 @@
 .info-section {
-  background-color: var(--dark);
-  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--black);
+  color: var(--white);
+  height: auto;
 }
 
 .headline {
-  text-align: center;
+  font-family: ppneuemontreal;
+  text-align: start;
   font-weight: bold;
-  font-size: 1.5rem;
-  padding: 1.5rem;
+  font-size: 4rem;
+  padding: 8rem 22rem 0rem 22rem;
 }
 
 .body-text {
-  text-align: center;
-  font-size: 1.1rem;
-  padding: 0rem 1.5rem 1.5rem;
+  font-family: ppneuemontreal;
+  text-align: start;
+  font-size: 1.8rem;
+  padding: 2rem 22rem 8rem 22rem;
 }

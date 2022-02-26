@@ -7,13 +7,13 @@
 
 .text-container {
   margin: 0 auto;
-  background-color: var(--dark);
+  background-color: var(--black);
   width: 350px;
   position: relative;
 }
 
 .text-container p {
-  color: var(--light);
+  color: var(--white);
   padding: 2rem 2rem;
 }
 
