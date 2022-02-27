@@ -1,0 +1,35 @@
+.footer-section {
+  height: 1077px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  margin-top: 20%;
+  width: 60%;
+}
+
+.footer-text h2 {
+  font-size: 72px;
+}
+
+.footer-section h3 {
+  margin-top: 5%;
+  font-size: 32px;
+  margin-bottom: 10%;
+}
+
+.footer-text a {
+  color: black;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  font-size: 40px;
+  margin-top: 10%;
+}
