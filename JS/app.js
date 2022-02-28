@@ -9,7 +9,3 @@ var options = {
 };
 grained("#tv-grain", options);
 grained("#tv-grain-desktop", options);
-
-/*
-  background-color :rgb(204, 204, 204)
-  */
