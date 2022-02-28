@@ -24,9 +24,11 @@
 
 .right {
   margin-left: -200px;
+  transform: scale(0.5);
 }
 .left {
-  margin-left: 200px;
+  margin-left: 100px;
+  transform: scale(0.5);
 }
 
 .bold-text {

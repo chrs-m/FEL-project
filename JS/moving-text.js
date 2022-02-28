@@ -1,21 +1,14 @@
-const breakPoint = document
-  .querySelector(".moving-text-container")
-  .getBoundingClientRect().bottom;
-
+// PARALLAX TEST
 var movingTextRight = document.querySelectorAll(".right");
-document.addEventListener("scroll", () => {
-  if (document.body.scrollTop < breakPoint) {
-    movingTextRight.forEach((element) => {
-      element.style.transform = "translateX(" + window.scrollY * 0.5 + "px)";
-    });
-  }
-});
-
 var movingTextLeft = document.querySelectorAll(".left");
-document.addEventListener("scroll", () => {
-  if (document.body.scrollTop < breakPoint) {
-    movingTextLeft.forEach((element) => {
-      element.style.transform = "translateX(" + window.scrollY * -0.5 + "px)";
-    });
-  }
+
+new simpleParallax(movingTextRight, {
+  orientation: "right",
+  scale: 2,
+  overflow: true,
+});
+new simpleParallax(movingTextLeft, {
+  orientation: "left",
+  scale: 2,
+  overflow: true,
 });
