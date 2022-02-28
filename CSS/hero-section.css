@@ -81,7 +81,7 @@ a {
 
   .tv-grain-desktop {
     display: flex;
-    /* height: 15%; */
+    height: 280px;
     border-radius: 15px;
     align-items: center;
     position: absolute;
@@ -94,7 +94,7 @@ a {
   }
 
   .logo-desktop {
-    font-size: 3.5rem;
+    font-size: 2rem;
     top: 25%;
     margin-left: 10px;
     margin-top: 30%;
@@ -105,12 +105,12 @@ a {
     z-index: 3;
     margin-left: 1%;
     position: relative;
-    margin-top: 36%;
+    margin-top: 32%;
   }
 
   .menu-text-desktop li {
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 1rem;
   }
 
