@@ -1,49 +1,73 @@
-.initiator-section {
-  margin-top: 600px;
-  background-color: var(--black);
-  color: var(--white);
-  height: auto;
+.initiator-img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  display: block;
+  width: 100px;
+}
+
+.img-wrapper {
+  background-color: var(--blue);
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 1rem;
+  width: 100px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  margin: 0rem 3rem;
 }
 
-.initiator-headline {
-  font-family: ppneuemontreal;
-  text-align: center;
-  font-weight: bold;
-  font-size: 4rem;
-  margin-bottom: 3rem;
-}
+@media only screen and (min-width: 1020px) {
+  .initiator-section {
+    margin-top: 600px;
+    background-color: var(--black);
+    color: var(--white);
+    height: auto;
+  }
 
-.initiator-description {
-  display: flex;
-  justify-content: space-between;
-}
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0rem 3rem;
+  }
 
-.img-wrapper {
-  background-color: aqua;
-  overflow: hidden;
-  object-fit: cover;
-  border-radius: 1rem;
-}
+  .initiator-headline {
+    font-family: ppneuemontreal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
 
-.initiator {
-  width: fit-content;
-  margin-bottom: 2rem;
-}
+  .initiator-description {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.initiator-img {
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-  display: block;
-}
+  .img-wrapper {
+    background-color: var(--blue);
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 1rem;
+    width: unset;
+  }
 
-.initiator-img:hover {
-  -webkit-transform: scale(1.35);
-  transform: scale(1.35) rotate(15deg);
+  .initiator {
+    width: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .initiator-img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    display: block;
+    width: unset;
+  }
+
+  .initiator-img:hover {
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35) rotate(15deg);
+  }
 }
