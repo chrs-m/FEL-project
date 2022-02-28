@@ -1,0 +1,15 @@
+@font-face {
+  font-family: ppfraktionmono;
+  src: url("/fonts/ppfraktionmono-bold-webfont.woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: ppneuemontreal;
+  src: url("/fonts/ppneuemontreal-bold-webfont.woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: ppneuemontreal;
+  src: url("/fonts/ppneuemontreal-medium-webfont.woff2");
+  font-weight: medium;
+}

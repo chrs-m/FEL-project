@@ -1,0 +1,57 @@
+.swiper {
+  margin-top: 2rem;
+  height: 463px;
+}
+
+.swiper .swiper-slide {
+  width: 150px;
+  position: relative;
+  border: 2px solid var(--black);
+}
+
+.swiper .swiper-text {
+  position: absolute;
+  bottom: 24px;
+  right: 1rem;
+  font-size: 1rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+}
+
+/* BACKGROUNDS */
+.swiper .lab1 {
+  background-color: var(--white);
+}
+.swiper .lab2 {
+  background-color: var(--yellow);
+}
+.swiper .lab3 {
+  background-color: var(--blue);
+}
+.swiper .lab4 {
+  background-color: var(--pink);
+}
+.swiper .lab5 {
+  background-color: var(--purple);
+}
+.swiper .lab6 {
+  background-color: var(--green);
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 426px) {
+  .swiper {
+    margin-top: 2rem;
+    height: 500px;
+  }
+
+  .swiper .swiper-text {
+    position: absolute;
+    bottom: 24px;
+    right: 1rem;
+    font-size: 4rem;
+  }
+}

@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/fonts.css" />
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/colors.css" />
     <link rel="stylesheet" href="CSS/hero-section.css" />
     <link rel="stylesheet" href="CSS/mid-section.css" />
-    <title>FEL</title>
+    <link rel="stylesheet" href="Lib/Swiper/swiper.min.css" />
+    <link rel="stylesheet" href="CSS/swiper.css" />
+    <link rel="stylesheet" href="CSS/moving-text.css" />
+    <link rel="stylesheet" href="CSS/info-section.css" />
+    <link rel="stylesheet" href="CSS/initiator-section.css" />
+    <link rel="stylesheet" href="CSS/footer-section.css" />
+    <title>Future. Expeience. Lab.</title>
   </head>
   <body>
     <section id="hero-section">
@@ -78,22 +85,172 @@
       </div>
     </section>
     <!-- 
-    <section class="mid-section">
-      <div class="text-container">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
-          officia qui modi nobis itaque blanditiis nam iusto aperiam molestias
-          labore?
-        </p>
-        <img
-          class="container-img"
-          src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-          alt="Future man, such cool"
-        />
-      </div>
-    </section> -->
-  </body>
+    <!-- SLIDESHOW SECTION -->
+    <section class="slideshow">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide lab1">
+            <p class="swiper-text">LAB01(&#8599;)</p>
+          </div>
+          <div class="swiper-slide lab2">
+            <p class="swiper-text">LAB02(&#8599;)</p>
+          </div>
+          <div class="swiper-slide lab3">
+            <p class="swiper-text">LAB03(&#8599;)</p>
+          </div>
+          <div class="swiper-slide lab4">
+            <p class="swiper-text">LAB04(&#8599;)</p>
+          </div>
+          <div class="swiper-slide lab5">
+            <p class="swiper-text">LAB05(&#8599;)</p>
+          </div>
+          <div class="swiper-slide lab6">
+            <p class="swiper-text">LAB06(&#8599;)</p>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
 
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </section>
+
+    <!-- INFO SECTION -->
+    <section class="info-section">
+      <h2 class="info headline">
+        Future Experience Lab är en experimentverkstad för att provköra
+        framtiden. Och skapa den.
+      </h2>
+      <p class="info body-text">
+        Genom engagerande samarbetsmetoder, kreativitet och upptäckarlust får
+        destinationer, organisationer, företag och individer chans att klämma,
+        känna och smaka på framtidens upplevelser med målet att utveckla
+        modeller för hållbar samhällsförändring.
+      </p>
+    </section>
+
+    <!-- MOVING TEXT -->
+    <div class="moving-text-container">
+      <p class="moving-text right">
+        Vi skapar <span class="bold-text">Vi skapar</span> Vi skapar
+      </p>
+      <p class="moving-text left">
+        Framtiden <span class="bold-text">Framtiden </span>Framtiden
+      </p>
+      <p class="moving-text right">
+        Tillsammans <span class="bold-text">Tillsammans </span>Tillsammans
+      </p>
+    </div>
+
+    <!-- MID SECTION WITH IMGS -->
+    <section class="mid-section">
+      <div class="top-container">
+        <img
+          class="top-container-img"
+          src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+          alt="Great description of displayed image"
+        />
+        <p class="top-container-text">
+          Future Experience Lab är ett innovationsinitiativ för att stärka
+          upplevelsedestinationen Göteborg med särskilt fokus på
+          hybridupplevelser som bidrar till samhällsförändring.
+        </p>
+      </div>
+      <div class="bottom-container">
+        <img
+          class="bottom-container-img"
+          src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+          alt="Great description of displayed image"
+        />
+        <p class="bottom-container-text">
+          I ett LAB utforskar vi hur Göteborgs utpräglade destinationsaktörer i
+          samarbete med 34 kreativa Yrgo-studerande tillsammans kan skapa
+          framtidens hybridevent.
+        </p>
+      </div>
+    </section>
+
+    <!-- INITIATOR SECTION -->
+
+    <section class="initiator-section">
+      <h2 class="initiator-headline">INITIATIVTAGARE</h2>
+      <div class="grid">
+        <div class="initiator">
+          <img
+            class="initiator-img"
+            src="IMG/ulrica.png"
+            alt="Ulrica Ramstedt"
+          />
+          <div class="initiator-description">
+            <p>Ulrica Ramstedt</p>
+            <p>- Marlon</p>
+          </div>
+        </div>
+        <div>
+          <img class="initiator-img" src="IMG/johan.png" alt="Johan Carlberg" />
+          <div class="initiator-description">
+            <p>Johan Carlberg</p>
+            <p>- Yrgo</p>
+          </div>
+        </div>
+        <div>
+          <img
+            class="initiator-img"
+            src="IMG/christer.png"
+            alt="Christer Hedberg"
+          />
+          <div class="initiator-description">
+            <p>Christer Hedberg</p>
+            <p>- &Friends</p>
+          </div>
+        </div>
+        <div>
+          <img
+            class="initiator-img"
+            src="IMG/anna-maria.png"
+            alt="Anna-Maria Ölander"
+          />
+          <div class="initiator-description">
+            <p>Anna-Maria Ölander</p>
+            <p>- &Friends</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-section">
+      <div class="footer-container">
+      <div class="footer-text">
+        <h2>Provkör din verksamhets framtid</h2>
+        <h3>Behöver du också ett Future Experience Lab för din verksamhets framtid? <a href="#">Kontakta oss!</a></h3>
+      </div>
+    </div>
+  </div>
+      <div class="footer-bottom">
+<div class="footer-logo">
+  <p>Future.</p>
+  <p>Experience.</p>
+  <p>Lab.</p>
+</div>
+<div class="footer-contact">
+<p>KONTAKT</p>
+<p>INFO@FUTUREXPERIENCE.COM</p>
+</div>
+
+ 
+
+  </body>
+  <script src="Lib/Swiper/swiper.min.js"></script>
   <script src="JS/grained.min.js"></script>
   <script src="JS/app.js"></script>
+  <script src="JS/swiper.js"></script>
+  <script src="JS/moving-text.js"></script>
 </html>

@@ -1,0 +1,34 @@
+.moving-text-container {
+  background-color: var(--blue);
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.5rem;
+  overflow-x: hidden;
+}
+
+.moving-text {
+  overflow-x: hidden;
+  font-family: ppneuemontreal;
+  font-size: 6rem;
+  inline-size: max-content;
+  color: var(--blue-faded);
+}
+
+.moving-text span {
+  font-family: ppneuemontreal;
+  color: black;
+  padding: 0rem 2rem;
+  font-size: 6rem;
+}
+
+.right {
+  margin-left: -200px;
+}
+.left {
+  margin-left: 200px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
