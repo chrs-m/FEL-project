@@ -1,121 +1,35 @@
-.tv-container {
-  width: 100vw;
+/* HERO SECTION */
+.hero-section {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
-.tv-container img {
-  position: absolute;
-  width: 70%;
-  margin-top: 10%;
+.tv-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgb(204, 204, 204);
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: -5px 7px black;
 }
-
 .tv-grain {
   display: flex;
-  height: 25%;
+  width: 320px;
+  height: 220px;
   border-radius: 15px;
   align-items: center;
-  position: absolute;
-  z-index: 1;
-  margin-left: 3%;
-  width: 60%;
-  margin-top: 38%;
-  border: solid 5px;
-  border-color: black;
+}
+
+#tv-grain > * {
+  position: relative;
 }
 
 .logo {
-  font-size: 2.4rem;
+  font-size: 1.4rem;
   top: 25%;
   margin-left: 10px;
-  margin-top: 20%;
-  z-index: 2;
-  margin-bottom: 10px;
-}
-
-.menu-text {
-  z-index: 3;
-  margin-left: 23%;
-  position: relative;
-  margin-top: 6%;
-}
-
-.menu-text li {
-  list-style: none;
-  font-size: 1.5rem;
-  margin-top: 1rem;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-.menu-text-desktop,
-.tv-container-desktop {
-  display: none;
-}
-
-@media only screen and (min-width: 1170px) {
-  .menu-text,
-  .tv-container {
-    display: none;
-  }
-
-  .menu-text-desktop,
-  .tv-container-desktop {
-    display: block;
-  }
-
-  .tv-container-desktop {
-    width: 100vw;
-    display: flex;
-    justify-content: left;
-  }
-
-  .tv-container-desktop img {
-    position: absolute;
-    width: 50%;
-    padding: 5%;
-  }
-
-  .tv-grain-desktop {
-    display: flex;
-    /* height: 15%; */
-    border-radius: 15px;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
-    margin-left: 8%;
-    width: 25%;
-    margin-top: 23%;
-    border: solid 5px;
-    border-color: black;
-  }
-
-  .logo-desktop {
-    font-size: 3.5rem;
-    top: 25%;
-    margin-left: 10px;
-    margin-top: 30%;
-    z-index: 2;
-  }
-
-  .menu-text-desktop {
-    z-index: 3;
-    margin-left: 1%;
-    position: relative;
-    margin-top: 36%;
-  }
-
-  .menu-text-desktop li {
-    list-style: none;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-
-  .menu-text-desktop a {
-    color: black;
-    text-decoration: none;
-  }
 }
