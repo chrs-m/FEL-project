@@ -1,7 +1,6 @@
 .swiper {
   margin-top: 2rem;
-  /* width: 100vw; */
-  height: 500px;
+  height: 463px;
 }
 
 .swiper .swiper-slide {
@@ -14,7 +13,7 @@
   position: absolute;
   bottom: 24px;
   right: 1rem;
-  font-size: 4rem;
+  font-size: 1rem;
 }
 
 .swiper-button-prev,
@@ -40,4 +39,19 @@
 }
 .swiper .lab6 {
   background-color: var(--green);
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 426px) {
+  .swiper {
+    margin-top: 2rem;
+    height: 500px;
+  }
+
+  .swiper .swiper-text {
+    position: absolute;
+    bottom: 24px;
+    right: 1rem;
+    font-size: 4rem;
+  }
 }
