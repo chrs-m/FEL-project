@@ -1,6 +1,15 @@
 /* MID SECTION */
 
 .mid-section {
+  margin-top: 15rem;
+  display: flex;
+}
+
+.text-container {
+  margin: 0 auto;
+  margin-top: 100rem;
+  background-color: var(--dark);
+  width: 350px;
   position: relative;
   width: 100vw;
   margin-top: 3em;
