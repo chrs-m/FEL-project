@@ -25,6 +25,13 @@
   justify-content: space-between;
 }
 
+.img-wrapper {
+  background-color: aqua;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
 .initiator {
   width: fit-content;
   margin-bottom: 2rem;
@@ -33,9 +40,10 @@
 .initiator-img {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
+  display: block;
 }
 
 .initiator-img:hover {
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35) rotate(15deg);
 }
