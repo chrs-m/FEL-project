@@ -1,5 +1,5 @@
 .hero-section {
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 .tv-container {
@@ -35,6 +35,10 @@
   margin-top: 20%;
   z-index: 2;
   margin-bottom: 10px;
+}
+
+.logo p {
+  font-family: ppneuemontreal;
 }
 
 .menu-text {
@@ -103,6 +107,11 @@ a {
     margin-left: 10px;
     margin-top: 30%;
     z-index: 2;
+  }
+
+  .logo-text-desktop {
+    font-family: ppneuemontreal;
+    font-size: 2.5rem;
   }
 
   .menu-text-desktop {

@@ -7,17 +7,21 @@
   height: auto;
 }
 
+.info-wrapper {
+  border-left: 14px var(--yellow) solid;
+  margin: 6rem 24rem 6rem 24rem;
+  padding-left: 2rem;
+}
+
 .headline {
   font-family: ppneuemontreal;
   text-align: start;
   font-weight: bold;
-  font-size: 4rem;
-  padding: 8rem 22rem 0rem 22rem;
+  font-size: 3rem;
 }
 
 .body-text {
   font-family: ppneuemontreal;
   text-align: start;
-  font-size: 1.8rem;
-  padding: 2rem 22rem 8rem 22rem;
+  font-size: 1.4rem;
 }
