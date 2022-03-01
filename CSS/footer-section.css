@@ -11,6 +11,7 @@
   /* margin-top: 10%; */
   width: 80%;
   padding: 0rem 5rem;
+  border-left: 16px solid black;
 }
 
 .footer-text h2 {
@@ -21,7 +22,6 @@
 .footer-section h3 {
   margin-top: 5%;
   font-size: 22px;
-  margin-bottom: 10%;
   font-family: ppneuemontreal;
   font-weight: normal;
 }
@@ -73,7 +73,6 @@
   .footer-section h3 {
     margin-top: 5%;
     font-size: 32px;
-    margin-bottom: 10%;
   }
 
   .footer-text a {
