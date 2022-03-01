@@ -1,3 +1,23 @@
+.initiator-headline {
+  font-family: ppneuemontreal;
+  text-align: start;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  margin-left: 6rem;
+}
+
+.initiator-description p {
+  display: block;
+  font-family: ppneuemontreal;
+  font-size: 1.4rem;
+}
+
+.initiator-description .company {
+  font-family: ppfraktionmono;
+  font-size: 1.2rem;
+}
+
 .initiator-img {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
@@ -11,6 +31,7 @@
   object-fit: cover;
   border-radius: 1rem;
   width: 100px;
+  margin-bottom: 0.5rem;
 }
 
 .grid {
@@ -24,26 +45,28 @@
     background-color: var(--black);
     color: var(--white);
     height: auto;
+    padding: 5rem;
   }
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     margin: 0rem 3rem;
   }
 
   .initiator-headline {
     font-family: ppneuemontreal;
-    text-align: center;
+    text-align: start;
     font-weight: bold;
     font-size: 4rem;
     margin-bottom: 3rem;
   }
 
   .initiator-description {
-    display: flex;
+    display: block;
     justify-content: space-between;
+    font-family: ppneuemontreal;
   }
 
   .img-wrapper {
@@ -51,7 +74,7 @@
     overflow: hidden;
     object-fit: cover;
     border-radius: 1rem;
-    width: unset;
+    width: 200px;
   }
 
   .initiator {
@@ -63,7 +86,8 @@
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
     display: block;
-    width: unset;
+    width: 200px;
+    height: 300px;
   }
 
   .initiator-img:hover {

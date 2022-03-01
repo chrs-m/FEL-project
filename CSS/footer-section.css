@@ -10,20 +10,27 @@
 .footer-text {
   margin-top: 20%;
   width: 80%;
+  padding: 0rem 5rem;
 }
 
 .footer-text h2 {
   font-size: 26px;
+  font-family: ppneuemontreal;
 }
 
 .footer-section h3 {
   margin-top: 5%;
   font-size: 22px;
   margin-bottom: 10%;
+  font-family: ppneuemontreal;
+  font-weight: normal;
 }
 
 .footer-text a {
   color: black;
+  font-family: ppneuemontreal;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 .footer-bottom {
@@ -31,12 +38,17 @@
   font-size: 30px;
   margin-top: 10%;
   flex-direction: column;
-  margin-left: 10%;
+}
+
+.footer-bottom .footer-logo p {
+  font-family: ppneuemontreal;
+  font-weight: normal;
+  font-size: 3.5rem;
 }
 
 .footer-contact {
   margin-top: 20%;
-  font-size: 18px;
+  font-size: 2.5rem;
   margin-bottom: 10%;
 }
 
@@ -72,7 +84,7 @@
 
   .footer-contact {
     margin-top: 5%;
-    font-size: 30px;
+    /* font-size: 30px; */
   }
 
   .footer-bottom {

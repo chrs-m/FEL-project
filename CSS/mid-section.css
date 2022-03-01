@@ -10,13 +10,13 @@
 .top-container-text {
   position: absolute;
   right: 25rem;
-  top: 4rem;
+  top: 10rem;
   font-family: ppneuemontreal;
-  font-size: 2.5rem;
+  font-size: 2rem;
   background: white;
-  border: 6px solid black;
+  border: 8px solid black;
   border-radius: 16px;
-  padding: 2rem 2rem;
+  padding: 2rem 3rem;
   width: 600px;
   height: auto;
 }
@@ -28,7 +28,7 @@
   top: 2rem;
   right: 3rem;
   filter: grayscale(1);
-  border: 6px solid black;
+  border: 8px solid black;
   border-radius: 16px;
 }
 
@@ -37,11 +37,11 @@
   left: 25rem;
   top: 50rem;
   font-family: ppneuemontreal;
-  font-size: 2.5rem;
+  font-size: 2rem;
   background: white;
-  border: 6px solid black;
+  border: 8px solid black;
   border-radius: 16px;
-  padding: 2rem 2rem;
+  padding: 2rem 3rem;
   width: 570px;
   height: auto;
 }
@@ -53,6 +53,6 @@
   top: 35rem;
   left: 3rem;
   filter: grayscale(1);
-  border: 6px solid black;
+  border: 8px solid black;
   border-radius: 16px;
 }
