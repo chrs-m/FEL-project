@@ -1,28 +1,42 @@
+.initiator-section {
+  background-color: var(--black);
+  color: var(--white);
+  height: auto;
+  padding-bottom: 3rem;
+  /* padding: 5rem; */
+}
 .initiator-headline {
   font-family: ppneuemontreal;
   text-align: start;
-  font-weight: bold;
-  font-size: 4rem;
-  margin-bottom: 3rem;
-  margin-left: 6rem;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 1.4rem;
+  padding-top: 2rem;
+}
+
+.initiator-description {
+  border-left: yellow 4px solid;
+  padding-left: 1rem;
 }
 
 .initiator-description p {
   display: block;
   font-family: ppneuemontreal;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .initiator-description .company {
   font-family: ppfraktionmono;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .initiator-img {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
   display: block;
-  width: 100px;
+  width: 140px;
+  height: 170px;
 }
 
 .img-wrapper {
@@ -30,13 +44,17 @@
   overflow: hidden;
   object-fit: cover;
   border-radius: 1rem;
-  width: 100px;
+  width: 140px;
+  height: 170px;
   margin-bottom: 0.5rem;
+  justify-self: end;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
 }
 
 @media only screen and (min-width: 1020px) {
@@ -61,6 +79,7 @@
     font-weight: bold;
     font-size: 4rem;
     margin-bottom: 3rem;
+    margin-left: 5rem;
   }
 
   .initiator-description {
@@ -75,6 +94,7 @@
     object-fit: cover;
     border-radius: 1rem;
     width: 200px;
+    height: unset;
   }
 
   .initiator {

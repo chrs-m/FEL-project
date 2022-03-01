@@ -8,10 +8,10 @@
 }
 
 .footer-text {
-  /* margin-top: 10%; */
+  margin-top: 30%;
   width: 80%;
-  padding: 0rem 5rem;
-  border-left: 16px solid black;
+  padding-left: 2rem;
+  border-left: 8px solid black;
 }
 
 .footer-text h2 {
@@ -21,7 +21,7 @@
 
 .footer-section h3 {
   margin-top: 5%;
-  font-size: 22px;
+  font-size: 16px;
   font-family: ppneuemontreal;
   font-weight: normal;
 }
@@ -38,16 +38,19 @@
   font-size: 30px;
   margin-top: 10%;
   flex-direction: column;
+  padding-left: 2rem;
 }
 
 .footer-bottom .footer-logo p {
   font-family: ppneuemontreal;
   font-weight: normal;
-  font-size: 3.5rem;
+  font-size: 42px;
 }
 
 .footer-contact {
-  font-size: 2.5rem;
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* DESKTOP */
@@ -64,6 +67,7 @@
   .footer-text {
     margin-top: 10%;
     width: 60%;
+    border-left: 14px solid black;
   }
 
   .footer-text h2 {
