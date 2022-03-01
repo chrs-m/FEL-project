@@ -1,3 +1,6 @@
+const desktopWidth = window.innerWidth > 700;
+const mobileWidth = window.innerWidth < 700;
+
 const swiper = new Swiper(".swiper", {
   slidesPerView: 3.3,
   spaceBetween: 0,

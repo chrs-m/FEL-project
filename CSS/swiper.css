@@ -1,33 +1,3 @@
-@media screen and (min-width: 426px) {
-  .slideshow {
-    /* margin-top: 100px; */
-  }
-}
-
-.swiper {
-  /* margin-top: 2rem; */
-  height: 463px;
-}
-
-.swiper .swiper-slide {
-  width: 150px;
-  position: relative;
-  border: 4px solid var(--black);
-  border-bottom: 8px solid black;
-}
-
-.swiper .swiper-text {
-  position: absolute;
-  bottom: 24px;
-  right: 1rem;
-  font-size: 1rem;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  color: black;
-}
-
 /* BACKGROUNDS */
 .swiper .lab1 {
   background-color: var(--white);
@@ -48,17 +18,50 @@
   background-color: var(--green);
 }
 
-/* MEDIA QUERIES */
+.swiper {
+  /* margin-top: 2rem; */
+  height: 250px;
+}
+
+.swiper .swiper-text {
+  position: absolute;
+  bottom: 24px;
+  right: 1rem;
+  font-size: 1rem;
+}
+
+.swiper-wrapper {
+  height: 100%;
+}
+
+.swiper .swiper-slide {
+  width: 150px;
+  position: relative;
+  border: 2px solid var(--black);
+  border-bottom: 4px solid black;
+}
+
 @media screen and (min-width: 426px) {
   .swiper {
     /* margin-top: 2rem; */
-    height: 500px;
+    height: 463px;
   }
 
+  .swiper .swiper-slide {
+    width: 150px;
+    position: relative;
+    border: 4px solid var(--black);
+    border-bottom: 8px solid black;
+  }
   .swiper .swiper-text {
     position: absolute;
     bottom: 24px;
     right: 1rem;
     font-size: 4rem;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: black;
   }
 }

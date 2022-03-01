@@ -45,13 +45,13 @@
   z-index: 3;
   margin-left: 23%;
   position: relative;
-  margin-top: 6%;
+  margin-top: 4%;
 }
 
 .menu-text li {
   list-style: none;
-  font-size: 1.5rem;
-  margin-top: 1rem;
+  font-size: 1rem;
+  margin-top: 0.4rem;
 }
 
 a {
