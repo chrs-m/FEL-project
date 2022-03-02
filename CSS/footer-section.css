@@ -7,7 +7,7 @@
   margin-top: 10%;
   width: 80%;
   padding-left: 1rem;
-  border-left: 8px solid black;
+  border-left: 6px solid black;
 }
 
 .footer-text h2 {
@@ -126,6 +126,7 @@
     justify-content: space-between;
     padding: 2%;
     flex-direction: row;
+    margin-top: 5%;
   }
 
   .social-media {
