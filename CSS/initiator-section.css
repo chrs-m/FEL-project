@@ -82,6 +82,14 @@
     margin-left: 5rem;
   }
 
+  .initiator .name {
+    font-size: 1.5rem;
+  }
+
+  .initiator .company {
+    font-size: 1.2rem;
+  }
+
   .initiator-description {
     display: block;
     justify-content: space-between;
