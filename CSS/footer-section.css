@@ -61,7 +61,8 @@
 
   .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 10%;
   }
 
   .footer-text {
@@ -83,8 +84,15 @@
     color: black;
   }
 
-  .footer-contact {
-    margin-top: 5%;
+  .footer-contact p {
+    margin-left: 30%;
+    font-family: ppneuemontreal;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .footer-contact .email {
+    font-weight: normal;
   }
 
   .footer-bottom {
@@ -93,5 +101,27 @@
     padding: 2%;
     font-size: 40px;
     flex-direction: row;
+  }
+
+  .social-media {
+    margin-right: 5%;
+  }
+
+  .fb-wrapper {
+    display: flex;
+  }
+
+  .fb-text {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  .instagram-wrapper {
+    display: flex;
+  }
+
+  .instagram-text {
+    font-size: 2rem;
+    margin-left: 1rem;
   }
 }

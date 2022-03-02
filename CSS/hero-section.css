@@ -1,5 +1,5 @@
 .hero-section {
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 
 .tv-container {
@@ -78,7 +78,7 @@ a {
   .tv-container-desktop {
     width: 100vw;
     display: flex;
-    justify-content: left;
+    justify-content: center;
   }
 
   .tv-container-desktop img {
@@ -94,7 +94,7 @@ a {
     align-items: center;
     position: absolute;
     z-index: 1;
-    margin-left: 8%;
+    /* margin-left: 8%; */
     width: 25%;
     margin-top: 23%;
     border: solid 5px;
