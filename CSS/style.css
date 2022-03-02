@@ -10,3 +10,13 @@ body {
   background-color: var(--yellow);
   overflow-x: hidden;
 }
+
+.arrow {
+  height: 0.7rem;
+}
+
+@media only screen and (min-width: 1170px) {
+  .arrow {
+    height: 3rem;
+  }
+}
