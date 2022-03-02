@@ -1,16 +1,12 @@
-.footer-section {
-  /* height: 577px; */
-}
-
 .footer-container {
   display: flex;
   justify-content: center;
 }
 
 .footer-text {
-  margin-top: 30%;
+  margin-top: 10%;
   width: 80%;
-  padding-left: 2rem;
+  padding-left: 1rem;
   border-left: 8px solid black;
 }
 
@@ -38,7 +34,7 @@
   font-size: 30px;
   margin-top: 10%;
   flex-direction: column;
-  padding-left: 2rem;
+  padding-left: 2.4rem;
 }
 
 .footer-bottom .footer-logo p {
@@ -48,17 +44,46 @@
 }
 
 .footer-contact {
-  font-size: 18px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.footer-contact p {
+  font-family: ppneuemontreal;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.footer-contact .email {
+  font-weight: normal;
+}
+
+.social-media {
+  margin-top: 1rem;
+  margin-right: 10%;
+}
+
+.fb-wrapper {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.fb-text {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.instagram-wrapper {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.instagram-text {
+  font-size: 1.2rem;
+  margin-left: 1rem;
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 870px) {
-  .footer-section {
-    /* height: 1077px; */
-  }
-
   .footer-container {
     display: flex;
     justify-content: left;
@@ -104,7 +129,8 @@
   }
 
   .social-media {
-    margin-right: 5%;
+    margin-top: 1rem;
+    margin-right: 10%;
   }
 
   .fb-wrapper {

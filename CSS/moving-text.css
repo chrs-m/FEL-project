@@ -3,7 +3,7 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   overflow-x: hidden;
 }
 
@@ -24,11 +24,11 @@
 }
 
 .right {
-  margin-left: -100px;
+  margin-left: -180px;
   transform: scale(0.5);
 }
 .left {
-  margin-left: -30px;
+  margin-left: -80px;
   transform: scale(0.5);
 }
 

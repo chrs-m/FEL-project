@@ -8,7 +8,7 @@
 }
 
 .info-wrapper {
-  border-left: 8px var(--yellow) solid;
+  border-left: 4px var(--yellow) solid;
   margin: 5rem 2rem 5rem 2rem;
   padding-left: 2rem;
 }
@@ -38,7 +38,7 @@
 
   .info-wrapper {
     border-left: 14px var(--yellow) solid;
-    margin: 6rem 24rem 6rem 24rem;
+    margin: 10rem 24rem 8rem 24rem;
     padding-left: 2rem;
   }
 
